@@ -73,7 +73,7 @@ body{
     margin: auto;
     align-items: center;
     margin-top: 100px;
-    margin-right: 200px;
+    
 }
 .action-image{
     border-radius: 48px;
@@ -83,5 +83,47 @@ body{
 .action-info{
     max-width: 517px;
     margin: auto;
+    margin-left: 0;
+}
+.productive-section {
+    max-width: 1140px;
+    margin: 100px auto; 
+    background-color:#E6E6FF; 
+    padding: 50px 0; 
+    text-align: center; 
+    border-radius: 24px;
+}
+
+.pro-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 50px; 
+}
+
+.productive-stats {
+    display: flex; 
+    justify-content: center; 
+    gap: 80px; 
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-family: "Inter", sans-serif;
+    font-size: 60px; 
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 10px; 
+}
+
+.stat-label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #666; 
+    text-transform: capitalize;
 }
 
