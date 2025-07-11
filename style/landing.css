@@ -202,4 +202,112 @@ body{
   font-weight: 600;
   color: #888;
 }
+/* focushed section */
+.focused{
+    text-align: center;
+    max-width: 1140px;
+    max-height: 690px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px 150px;
+    /* border-style: solid; */
+    margin:30px 50px;
+    border-radius: 14px;
+}
 
+.focused-img{
+    max-width: 840px;
+    max-height: 350px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.focused-title{
+    font-family: "Raleway",sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.focused-subtitle{
+    font-family: "AGFont", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+/* get is touch section */
+ .container {
+            display: flex;
+            justify-content: space-between;
+            gap:100px;
+            align-items: center;
+            max-width: 1140px;
+            margin: 150px auto;
+            /* border-style: solid; */
+            gap:300px
+            
+           
+            
+        }
+    .left-section h1{
+        font-family: "Raleway",sans-serif;
+        font-size: 97px;
+        font-weight: bold;
+    }
+     form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #374151;
+            font-family: "Inter",sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        form input[type="email"], form input[type="text"]{
+            height: 60px;
+            border-radius: 10px;
+            width: 400px;
+            background-color: white;
+            border:none;
+            box-shadow: 0 0 0 1px rgba(102, 126, 234, 0.1);
+            padding: 5px 10px ;
+            margin-bottom: 10px;
+        }
+        
+        form textarea{
+            height: 120px;
+            border-radius: 10px;
+            width: 400px;
+            background-color: white;
+            border: none;
+            box-shadow:0 0 0 1px rgba(102, 126, 234, 0.1) ;
+            padding: 10px 10px;
+            margin-bottom: 10px;
+        }
+
+        form input[type="submit"]{
+            font-family: "Raleway",sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            height: 50px;
+            border-radius: 10px;
+            width: 420px;
+            background-color: #4E47FF;
+            color:white;
+            border:none;
+            padding: 5px 10px;
+            
+        }
+        input::placeholder, textarea::placeholder{
+            font-family: "Inter",sans-serif;
+            font-size:20px;
+            font-weight: 400;
+        }
+      
+      
+
+        
+
+
+    
+
+       
